@@ -1,11 +1,7 @@
-"use strict";
 import axios from "axios";
-import moment from "moment";
 import {sortDatasetBasedonTime} from "../helpers/helperFunc";
 
 export default class HealthService{
-    constructor(){
-    }
 
     static async getHealthData(type, sortCriteria){
         try {
